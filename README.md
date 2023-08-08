@@ -3,7 +3,41 @@
 - MSC branch ```msc-5.15```
 - MSC manifest ```itx-p-c444_msc_5.15.32.xml```
 
+# Usage
+```console
+repo init -u git@github.com:inmarsatgov/MSC-Enhanced-L-manifest.git -b msc-5.15 -m itx-p-c444_msc_5.15.32.xml
+repo sync -j4
+```
+
 # Yocto Layers
+
+# Summary
+
+| layer                     |     path                                                            | priority |
+| ------------------------- | ------------------------------------------------------------------- | -------- |
+| meta                      | /home/msc-build/msc/build/sources/poky/meta                         | 5        |
+| meta-poky                 | /home/msc-build/msc/build/sources/poky/meta-poky                    | 5        |
+| meta-oe                   | /home/msc-build/msc/build/sources/meta-openembedded/meta-oe         | 5        |
+| meta-multimedia           | /home/msc-build/msc/build/sources/meta-openembedded/meta-multimedia | 5        |
+| meta-python               | /home/msc-build/msc/build/sources/meta-openembedded/meta-python     | 5        |
+| meta-freescale            | /home/msc-build/msc/build/sources/meta-freescale                    | 5        |
+| meta-freescale-3rdparty   | /home/msc-build/msc/build/sources/meta-freescale-3rdparty           | 4        |
+| meta-freescale-distro     | /home/msc-build/msc/build/sources/meta-freescale-distro             | 4        |
+| meta-bsp                  | /home/msc-build/msc/build/sources/meta-imx/meta-bsp                 | 8        |
+| meta-sdk                  | /home/msc-build/msc/build/sources/meta-imx/meta-sdk                 | 8        |
+| meta-ml                   | /home/msc-build/msc/build/sources/meta-imx/meta-ml                  | 8        |
+| meta-chromium             | /home/msc-build/msc/build/sources/meta-browser/meta-chromium        | 7        |
+| meta-clang                | /home/msc-build/msc/build/sources/meta-clang                        | 7        |
+| meta-gnome                | /home/msc-build/msc/build/sources/meta-openembedded/meta-gnome      | 5        |
+| meta-perl                 | /home/msc-build/msc/build/sources/meta-openembedded/meta-perl       | 5        |
+| meta-networking           | /home/msc-build/msc/build/sources/meta-openembedded/meta-networking | 5        |
+| meta-filesystems          | /home/msc-build/msc/build/sources/meta-openembedded/meta-filesystems| 5        |
+| meta-nxp-demo-experience  | /home/msc-build/msc/build/sources/meta-nxp-demo-experience          | 7        |
+| meta-qt6                  | /home/msc-build/msc/build/sources/meta-qt6                          | 5        |
+| meta-python2              | /home/msc-build/msc/build/sources/meta-python2                      | 7        |
+| meta-tpm                  | /home/msc-build/msc/build/sources/meta-security/meta-tpm            | 10       |
+| meta-winsys               | /home/msc-build/msc/build/sources/meta-winsys                       | 11       |
+
 
 ## poky
  - path: ```sources/poky```
